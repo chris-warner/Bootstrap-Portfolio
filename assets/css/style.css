@@ -5,7 +5,11 @@
 }
 
 body{
-  background-image: image-set("assets/")
+}
+
+.navbar-brand:hover{
+  background-color: black;
+  color:black;
 }
 
 .flex-container>div {
@@ -63,32 +67,31 @@ body {
      background-image: url("assegs/images/dramatic.jpg");
      background-color: #cccccc;
   }
-  
+
   * {
     box-sizing: border-box;
   }
-  
+
   /* general */
-  
+
   .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
   }
-  
-  
+
   h1,
   h2,
   h3,
   p {
     margin-bottom: 20px;
   }
-  
+
   p:last-child {
     margin-bottom: 0;
   }
-  
+
   h1,
   h2,
   h3 {
@@ -96,7 +99,7 @@ body {
     font-weight: 700;
     color: #3f435d;
   }
-  
+
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
@@ -116,7 +119,7 @@ body {
   /* header */
   #masthead {
     z-index: 99;
-    width: 100%;
+    width: 200%;
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
@@ -154,21 +157,20 @@ body {
     line-height: 22px;
     border-bottom: 2px solid #eeeeee;
   }
-  
+
   /* main */
-  
+
   #main-container {
     padding-top: 80px;
     min-height: calc(100vh - 70px);
   }
-  
+
   .main-section { float: left;
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
     background: #ffffff;
-    border: 1px solid #dddddd;
+    border: 1px solid #181515;
   }
 
   /* portfolio page */
@@ -198,7 +200,7 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
-  
+
   .auth-image {
     float: left;
     width: 200px;
@@ -206,7 +208,7 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
-  
+
   .red-bg
   {
     background-color: red;
@@ -249,7 +251,7 @@ body {
   textarea {
     height: 200px;
   }
-  
+
   input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
@@ -258,4 +260,3 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
