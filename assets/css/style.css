@@ -29,18 +29,18 @@ max-height: fit-content;
   object-position: top;
   height: 100%;
   z-index: 2;
-  
+
 }
-.navbar-inverse 
+.navbar-inverse
 {
-    background-color: #3f435d;
-    border-color: #080808;
+    background-color:white;
+    border-color: white;
 }
-.navbar-inverse 
+.navbar-inverse
 .navbar-nav>
 .active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #3f435d;
+    color: black;
+    background-color: white;
 }
 h1
 {
@@ -103,20 +103,18 @@ body {
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
   }
-  
+
   h1-a {
     text-align: left;
   }
-  
+
   h2,
   h3 {
     font-size: 22px;
   }
-  
+
   /* header */
-  
   #masthead {
-   
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -125,7 +123,7 @@ body {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
   }
-  
+
   #logo {
     float: left;
     width: 250px;
@@ -139,35 +137,6 @@ body {
     text-decoration: none;
     background: #4aaaa5;
   }
-  /*
-  nav {
-    float: right;
-    margin-top: 25px;
-    color: #999;
-    border-left: 1px solid #efefef;
-  }
-  
-  .nav-a {
-  
-  
-    display: block;
-    padding-left: 15px;
-    margin-left: 15px;
-    line-height: 18px;
-    background-color: #ffffff;
-    background: #4aaaa5;
-    text-decoration: none;
-    border-left: 1px solid #efefef;
-    float: left;
-  }
-  
-  nav a:first-child {
-    margin-left: 390px;
-    border-left: 0 none;
-  }
-  */
-  /* footer */
-  
   footer {
     padding: 30px 0;
     clear: both;
@@ -175,11 +144,10 @@ body {
     color: #ffffff;
     color: #cccccc;
     text-align: center;
-    background: #3f435d;;
-    border-top: 8px solid #3f435d;;
+    background: white;
+    border-top: 8px solid white;;
     height: 50px;
   }
-  
   h3, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
@@ -192,7 +160,6 @@ body {
   #main-container {
     padding-top: 80px;
     min-height: calc(100vh - 70px);
-
   }
   
   .main-section { float: left;
@@ -203,9 +170,9 @@ body {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
-  
+
   /* portfolio page */
-  
+
   .work {
     position: relative;
     float: left;
@@ -213,11 +180,11 @@ body {
     margin: 20px 0 25px;
     overflow: auto;
   }
-  
+
   .work:nth-child(even) {
     margin-right: 40px;
   }
-  
+
   .work h3 {
     position: absolute;
     bottom: 20px;
@@ -253,15 +220,15 @@ body {
     height: 200px;
   }
   /* contact page */
-  
+
   #contact-form ul {
     margin-bottom: 20px;
   }
-  
+
   #contact-form li {
     margin-bottom: 10px;
   }
-  
+
   label,
   input[type=text],
   input[type=email],
@@ -269,7 +236,7 @@ body {
     display: block;
     width: 100%;
   }
-  
+
   input[type=text],
   input[type=email],
   textarea {
@@ -278,7 +245,7 @@ body {
     font-size: 14px;
     border: 1px solid #dddddd;
   }
-  
+
   textarea {
     height: 200px;
   }
