@@ -1,79 +1,103 @@
 <!DOCTYPE html>
-<!-- saved from url=(0060)https://getbootstrap.com/docs/3.3/examples/starter-template/ -->
 <html lang="en">
 
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title> Home | Christopher Warner</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous">
-    <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<body>
 
-  </head>
+  <!-- Start your project here-->
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
-  <body>
-    <!-- Navigation Bar and Links -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-            aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="iconx-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Christopher Warner</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">Christopher Warner</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:chris@krypt1k.com">Contact</a>
+      </li>
+      <!-- Dropdown -->
+
+    </ul>
+    <!-- Links -->
+
+    <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       </div>
-    </nav>
+    </form>
+  </div>
+  <!-- Collapsible content -->
 
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <div class="row">
-          <div class="col-xs-9"></div>
-          <h1 class="a-1">About Me</h1>
-          <div class="row-md-4">
-          <div class="row-md-4">
-          <img src="assets/images/me.jpg" class="auth-image" alt="Christopher Warner"></div>
-            <p>Hello, my name is Christopher Warner. I am a web developer and designer from
-              New York City.</p>
-            <p>I am a full stack developer educated student currently studying at Columbia University. I have
-             been exposed to programming since the 7th grade, having developed many creative projects.</p>
-          </div>
-        </div>
-      </section>
+</nav>
+<!--/.Navbar-->
+  <!-- /Start your project here-->
+
+  <div class="card text-center center-div .center-divv">
+      <div class="card-header">
+        About
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Christopher Warner</h5>
+        <img src="img/me.jpg"></img>
+        <p class="card-text">Hello, my name is Christopher Warner. I am a web developer and designer from
+            New York City.I am a full stack developer educated student currently studying at Columbia University. I have
+           been exposed to programming since the 7th grade, having developed many creative projects.</p>
+        <a href="#!" class="btn btn-primary">Portfolio</a>
+      </div>
+
     </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- Latest compiled and minified JavaScript -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small blue fixed-bottom">
 
-  </body>
-  <footer>
-    <div class="container">
-    </div>
-  </footer>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://chris-warner.github.io/Bootstrap-Portfolio/"> https://chris-warner.github.io/Bootstrap-Portfolio/</a>
+  </div>
+  <!-- Copyright -->
 
+</footer>
+<!-- Footer -->
 </html>
