@@ -1,3 +1,5 @@
 # Bootstrap-Portfolio
 
-## Bootstrap portfolio.
+## Technologies used: html, css, jquery.
+
+This is my personal website and portfolio.
